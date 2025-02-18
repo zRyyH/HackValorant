@@ -1,7 +1,11 @@
 import cv2
-# import numpy as np
 import pyautogui
 import screen
+import os
+
+os.system("pip install pyautogui")
+os.system("pip install opencv-python")
+os.system("pip install numpy")
 
 screen.run()
 
